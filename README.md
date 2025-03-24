@@ -19,3 +19,9 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?logo=linkedin&logoColor=white&style=flat)](https://www.linkedin.com/in/omar)  
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?logo=twitter&logoColor=white&style=flat)](https://twitter.com/omar)  
 [![Portfolio](https://img.shields.io/badge/-Portfolio-000000?logo=web&logoColor=white&style=flat)](https://cv-omar6-1.netlify.app)  
+![Omar's GitHub stats](https://github-readme-stats.vercel.app/api?username=hector61000&show_icons=true&theme=radical)
+https://github.com/hector61000/A-New-Era-of-Advertising.git
+https://github.com/hector61000/Feasibility_Study_Tool-2025.git
+https://github.com/hector61000/Green-Light-AI.git
+![Profile Views](https://komarev.com/ghpvc/?username=hector61000&color=blue)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hector61000&layout=compact&theme=radical)
