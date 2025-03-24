@@ -23,5 +23,4 @@
 https://github.com/hector61000/A-New-Era-of-Advertising.git
 https://github.com/hector61000/Feasibility_Study_Tool-2025.git
 https://github.com/hector61000/Green-Light-AI.git
-![Profile Views](https://komarev.com/ghpvc/?username=hector61000&color=blue)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hector61000&layout=compact&theme=radical)
