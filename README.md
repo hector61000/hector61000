@@ -17,12 +17,10 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hector61000&layout=compact&theme=radical)
 
 ## 📫 Connect with Me  
-ozakria955@gmail.com
-https://cv-omar6-1.netlify.app/
-https://www.facebook.com/?locale=ar_AR
-https://wa.me/201030435987
-
-
-https://github.com/hector61000/A-New-Era-of-Advertising.git
-https://github.com/hector61000/Feasibility_Study_Tool-2025.git
-https://github.com/hector61000/Green-Light-AI.git
+📧 [Email](mailto:ozakria955@gmail.com)  
+🌐 [Portfolio](https://cv-omar6-1.netlify.app/)  
+📘 [Facebook](https://www.facebook.com/?locale=ar_AR)  
+💬 [WhatsApp](https://wa.me/2010304359XXX)  
+🔗 [Project 1](https://github.com/hector61000/A-New-Era-of-Advertising.git)  
+🔗 [Project 2](https://github.com/hector61000/Feasibility_Study_Tool-2025.git)  
+🔗 [Project 3](https://github.com/hector61000/Green-Light-AI.git)
