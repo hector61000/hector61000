@@ -60,12 +60,12 @@
       z-index: 1000;
     }
 
-    /* تصميم الدرع في منتصف الصفحة */
+    /* تصميم الدرع في أسفل الصفحة */
     .shield {
       position: absolute;
-      top: 50%;
+      bottom: 20px; /* تغيير إلى الأسفل */
       left: 50%;
-      transform: translate(-50%, -50%);
+      transform: translateX(-50%);
       text-align: center;
       z-index: 1000;
       font-size: 30px;
@@ -96,7 +96,7 @@
   <!-- الساعة المتحركة -->
   <div id="clock"></div>
 
-  <!-- درع النص -->
+  <!-- درع النص في أسفل الصفحة -->
   <div class="shield">
     <h1>OMAR ZAKARIA</h1>
     <p>Green Light</p>
