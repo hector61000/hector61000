@@ -10,7 +10,7 @@
       padding: 0;
       background: black;
       color: green;
-      font-family: monospace;
+      font-family: 'Courier New', Courier, monospace;
       overflow: hidden;
       position: relative;
     }
@@ -30,6 +30,7 @@
     .matrix span {
       position: absolute;
       animation: fall linear infinite;
+      opacity: 0.8;
     }
 
     @keyframes fall {
@@ -41,23 +42,66 @@
       }
     }
 
-    /* تأثير الشيفرات */
+    /* تأثيرات خاصة لألوان متغيرة */
     .matrix span:nth-child(odd) {
       animation-duration: 5s;
-    }
-    .matrix span:nth-child(even) {
-      animation-duration: 7s;
+      color: rgba(0, 255, 0, 0.7);
     }
 
+    .matrix span:nth-child(even) {
+      animation-duration: 7s;
+      color: rgba(255, 0, 0, 0.7);
+    }
+
+    /* تأثير الساعة */
     #clock {
-      font-family: 'Courier New', Courier, monospace;
       font-size: 30px;
-      color: green;
+      color: lime;
       position: absolute;
-      top: 10px;
+      top: 20px;
       left: 50%;
       transform: translateX(-50%);
       z-index: 1000;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    /* تنسيق النصوص المركزية */
+    .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: lime;
+      z-index: 1000;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 15px #00FF00;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+
+    /* حركة الكلمة */
+    .highlight {
+      color: #FF6347;
+      animation: pulse 1s infinite alternate;
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(1.2);
+      }
     }
   </style>
 </head>
@@ -68,6 +112,15 @@
 
   <!-- الساعة المتحركة -->
   <div id="clock"></div>
+
+  <!-- المحتوى -->
+  <div class="content">
+    <h1>👁️‍🗨️ OMAR ZAKARIA | SYSTEM BREACHER | CODE TERRORIST 🧠</h1>
+    <p>"I don't fit into systems. I break them and build my own."</p>
+    <p><span class="highlight">🔥 Rules are meant to be bypassed.</span></p>
+    <p><span class="highlight">🧠 Limits are nothing but illusions.</span></p>
+    <p><span class="highlight">🛡️ Every byte has a purpose: domination.</span></p>
+  </div>
 
   <script>
     const matrix = document.querySelector(".matrix");
@@ -81,20 +134,12 @@
       }, 7000); 
     }, 100);
 
-    // الساعة المتحركة
+    // تحديث الساعة المتحركة
     setInterval(function () {
       let currentTime = new Date().toLocaleTimeString();
       document.getElementById('clock').innerHTML = currentTime;
     }, 1000);
   </script>
-
-  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; color: green; z-index: 1000;">
-    <h1>👁️‍🗨️ OMAR ZAKARIA | SYSTEM BREACHER | CODE TERRORIST 🧠</h1>
-    <p>"I don't fit into systems. I break them and build my own."</p>
-    <p>🔥 Rules are meant to be bypassed.</p>
-    <p>🧠 Limits are nothing but illusions.</p>
-    <p>🛡️ Every byte has a purpose: domination.</p>
-  </div>
 
 </body>
 </html>
