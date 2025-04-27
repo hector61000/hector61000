@@ -10,7 +10,7 @@
       padding: 0;
       background: black;
       color: green;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: monospace;
       overflow: hidden;
       position: relative;
     }
@@ -30,7 +30,6 @@
     .matrix span {
       position: absolute;
       animation: fall linear infinite;
-      opacity: 0.8;
     }
 
     @keyframes fall {
@@ -42,66 +41,50 @@
       }
     }
 
-    /* تأثيرات خاصة لألوان متغيرة */
+    /* تأثير الشيفرات */
     .matrix span:nth-child(odd) {
       animation-duration: 5s;
-      color: rgba(0, 255, 0, 0.7);
     }
-
     .matrix span:nth-child(even) {
       animation-duration: 7s;
-      color: rgba(255, 0, 0, 0.7);
     }
 
-    /* تأثير الساعة */
     #clock {
+      font-family: 'Courier New', Courier, monospace;
       font-size: 30px;
-      color: lime;
+      color: green;
       position: absolute;
-      top: 20px;
+      top: 10px;
       left: 50%;
       transform: translateX(-50%);
       z-index: 1000;
-      font-family: 'Courier New', Courier, monospace;
     }
 
-    /* تنسيق النصوص المركزية */
-    .content {
+    /* تصميم الدرع في منتصف الصفحة */
+    .shield {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       text-align: center;
-      color: lime;
       z-index: 1000;
+      font-size: 30px;
+      color: green;
+      border: 5px solid green;
       padding: 20px;
-      background: rgba(0, 0, 0, 0.6);
-      border-radius: 10px;
+      border-radius: 15px;
+      background-color: rgba(0, 0, 0, 0.7);
+      width: 300px;
     }
 
-    h1 {
-      font-size: 3rem;
-      text-shadow: 0 0 5px #00FF00, 0 0 10px #00FF00, 0 0 15px #00FF00;
+    .shield h1 {
+      font-size: 35px;
+      margin: 0;
     }
 
-    p {
-      font-size: 1.2rem;
-      line-height: 1.6;
-    }
-
-    /* حركة الكلمة */
-    .highlight {
-      color: #FF6347;
-      animation: pulse 1s infinite alternate;
-    }
-
-    @keyframes pulse {
-      0% {
-        transform: scale(1);
-      }
-      100% {
-        transform: scale(1.2);
-      }
+    .shield p {
+      margin-top: 10px;
+      font-size: 18px;
     }
   </style>
 </head>
@@ -113,20 +96,17 @@
   <!-- الساعة المتحركة -->
   <div id="clock"></div>
 
-  <!-- المحتوى -->
-  <div class="content">
-    <h1>👁️‍🗨️ OMAR ZAKARIA | SYSTEM BREACHER | CODE TERRORIST 🧠</h1>
-    <p>"I don't fit into systems. I break them and build my own."</p>
-    <p><span class="highlight">🔥 Rules are meant to be bypassed.</span></p>
-    <p><span class="highlight">🧠 Limits are nothing but illusions.</span></p>
-    <p><span class="highlight">🛡️ Every byte has a purpose: domination.</span></p>
+  <!-- درع النص -->
+  <div class="shield">
+    <h1>OMAR ZAKARIA</h1>
+    <p>Green Light</p>
   </div>
 
   <script>
     const matrix = document.querySelector(".matrix");
     setInterval(() => {
       const span = document.createElement("span");
-      span.textContent = String.fromCharCode(Math.random() * 128 + 33);
+      span.textContent = String.fromCharCode(Math.random() * 128 + 33); // random char
       span.style.left = Math.random() * 100 + "%";
       matrix.appendChild(span);
       setTimeout(() => {
@@ -134,7 +114,7 @@
       }, 7000); 
     }, 100);
 
-    // تحديث الساعة المتحركة
+    // الساعة المتحركة
     setInterval(function () {
       let currentTime = new Date().toLocaleTimeString();
       document.getElementById('clock').innerHTML = currentTime;
