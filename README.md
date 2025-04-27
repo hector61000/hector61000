@@ -63,3 +63,106 @@ I create black holes they can't escape from."
 
 🎬 BONUS GIF: REAL ENERGY
 <img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif" width="500">
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrix Code Rain</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: black;
+      color: green;
+      font-family: monospace;
+      overflow: hidden;
+      position: relative;
+    }
+    
+    .matrix {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      font-size: 1.5rem;
+      letter-spacing: 0.1rem;
+      pointer-events: none;
+      white-space: nowrap;
+    }
+    
+    .matrix span {
+      position: absolute;
+      animation: fall linear infinite;
+    }
+    
+    @keyframes fall {
+      from {
+        top: -100px;
+      }
+      to {
+        top: 100%;
+      }
+    }
+    
+    /* Add random delay and position */
+    .matrix span:nth-child(odd) {
+      animation-duration: 5s;
+    }
+    .matrix span:nth-child(even) {
+      animation-duration: 7s;
+    }
+  </style>
+</head>
+<body>
+  <div class="matrix"></div>
+  <script>
+    const matrix = document.querySelector(".matrix");
+    
+    setInterval(() => {
+      const span = document.createElement("span");
+      span.textContent = String.fromCharCode( Math.random() * 128 + 33 ); // random char
+      span.style.left = Math.random() * 100 + "%";
+      matrix.appendChild(span);
+      setTimeout(() => {
+        span.remove();
+      }, 7000); // remove the span after its animation
+    }, 100);
+  </script>
+</body>
+</html>
+<audio autoplay loop>
+  <source src="your-sound-file.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    #clock {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 30px;
+      color: green;
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1000;
+    }
+  </style>
+  <script>
+    setInterval(function () {
+      let currentTime = new Date().toLocaleTimeString();
+      document.getElementById('clock').innerHTML = currentTime;
+    }, 1000);
+  </script>
+</head>
+<body>
+  <div id="clock"></div>
+</body>
+</html>
