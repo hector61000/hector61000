@@ -1,42 +1,65 @@
-# 💻 **Hey there, I'm Omar!**
 
-🚀 **Full-Stack Developer** | ⚡ **Problem Solver** | 🌍 **Tech Enthusiast**
+👁️‍🗨️ OMAR ZAKARIA | SYSTEM BREACHER | CODE TERRORIST
+🧠 WHO AM I?
+"I don't fit into systems.
+I break them and build my own."
 
----
-## 🔥 About Me  
-- **Full-Stack Web Developer**, specialized in **Python, JavaScript, Vue.js**.  
-- Experienced in **backend & frontend** development.  
-- Passionate about building **scalable** web applications.  
+I'm not a programmer.
+I'm a digital insurgent, a one-man cyber army.
+I speak C like it’s my native bloodline,
+and I turn complexity into devastation.
 
----
-## 🛠 **Technologies & Tools**  
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
-![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?logo=vue.js&logoColor=white&style=flat)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github&logoColor=white&style=flat)
+In my world:
 
----
-## 📊 **GitHub Stats**  
-![Omar's GitHub Stats](https://github-readme-stats.vercel.app/api?username=hector61000&show_icons=true&theme=radical)
+🔥 Rules are meant to be bypassed.
 
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hector61000&layout=compact&theme=radical)
+🧠 Limits are nothing but illusions.
 
----
-## 🚀 **Projects**  
-- 🔗 **[A New Era of Advertising](https://github.com/hector61000/A-New-Era-of-Advertising.git)**  
-- 🔗 **[Feasibility Study Tool 2025](https://github.com/hector61000/Feasibility_Study_Tool-2025.git)**  
-- 🔗 **[Green Light AI](https://github.com/hector61000/Green-Light-AI.git)**  
+🛡️ Every byte has a purpose: domination.
 
----
-## 📞 **Connect with Me**  
-📧 [Email](mailto:ozakria955@gmail.com)  
-🌐 [Portfolio](https://cv-omar6-1.netlify.app/)  
-📘 [Facebook](https://www.facebook.com/?locale=ar_AR)  
-💬 [WhatsApp](https://wa.me/2010304359XXX)  
+⚔️ TECH ARSENAL
+C Language — Writing memory-optimized, death-proof programs.
 
----
-### 🎬 **Cool GIF Animation!**  
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="500">  
+Linux Systems — Living and breathing shell environments.
 
-**🚀 Let's build the future together!** ✨
+Reverse Engineering — Digging into binaries like a surgeon.
 
+Networking — Mastering sockets, protocols, and packet warfare.
+
+Exploit Development — Turning vulnerabilities into opportunities.
+
+Python/Bash — Rapid fire scripting when speed matters.
+
+🎯 PHILOSOPHY
+"If it bleeds, it can be hacked."
+
+I don't write apps.
+I craft resilient infrastructures.
+I don't design websites.
+I build weapons that never sleep.
+
+Speed. Stability. Anonymity.
+That's my holy trinity.
+
+📡 GEAR & TOOLS
+<p> <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=white" /> <img src="https://img.shields.io/badge/Nmap-4B8BBE?style=for-the-badge&logo=nmap&logoColor=white" /> <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" /> <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=black" /> <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" /> </p>
+📊 GITHUB WAR ROOM
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=hector61000&show_icons=true&theme=dracula" width="48%" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hector61000&layout=compact&theme=dracula" width="48%" /> </p>
+🔥 PROJECTS THAT MADE SYSTEMS SWEAT
+🔗 Stealth TCP Server - Built to Resist Flood Attacks
+
+🔗 Memory Fortress - Custom Allocator C for Ultra-Secure Environments
+
+🔗 Zero-Day Scanner - Early Phase Research Project
+
+🕶️ CONTACT THE UNSEEN
+📧 Encrypted Email
+🌐 Digital Portfolio
+💬 Secure Line
+
+💀 FINAL STATEMENT
+"I don't chase opportunities.
+I create black holes they can't escape from."
+
+🎬 BONUS GIF: REAL ENERGY
+<img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif" width="500">
